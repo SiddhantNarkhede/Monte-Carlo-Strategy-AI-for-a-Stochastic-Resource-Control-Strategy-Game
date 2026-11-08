@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pillow
+imageio
+# optional
+pygame      # visualization/game_ui.py (interactive UI)
+gymnasium   # game/gym_env.py

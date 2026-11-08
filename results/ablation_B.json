@@ -1,0 +1,120 @@
+{
+ "env": "B",
+ "sims": 100,
+ "rows": {
+  "MCTS": {
+   "vs_greedy": {
+    "games": 80,
+    "wins": 16,
+    "losses": 62,
+    "draws": 2,
+    "win_rate": 0.2125,
+    "ci_lo": 0.13712274217035494,
+    "ci_hi": 0.3142236061817758,
+    "avg_score_a": 92.0875,
+    "avg_score_b": 109.375,
+    "avg_margin": -17.2875,
+    "avg_turns": 15.0,
+    "base_kill_rate": 0.0,
+    "ms_per_decision_a": 6.747392201577282
+   },
+   "vs_mcts": null
+  },
+  "MCTS+prior": {
+   "vs_greedy": {
+    "games": 80,
+    "wins": 47,
+    "losses": 30,
+    "draws": 3,
+    "win_rate": 0.60625,
+    "ci_lo": 0.4966850771370073,
+    "ci_hi": 0.7060782289067704,
+    "avg_score_a": 111.7625,
+    "avg_score_b": 103.25,
+    "avg_margin": 8.5125,
+    "avg_turns": 15.0,
+    "base_kill_rate": 0.0,
+    "ms_per_decision_a": 10.776363701240982
+   },
+   "vs_mcts": {
+    "games": 80,
+    "wins": 67,
+    "losses": 13,
+    "draws": 0,
+    "win_rate": 0.8375,
+    "ci_lo": 0.7415689513651669,
+    "ci_hi": 0.9025027266562451,
+    "avg_score_a": 115.325,
+    "avg_score_b": 92.45,
+    "avg_margin": 22.875,
+    "avg_turns": 15.0,
+    "base_kill_rate": 0.0,
+    "ms_per_decision_a": 10.45842074692201
+   }
+  },
+  "MCTS+rollout": {
+   "vs_greedy": {
+    "games": 80,
+    "wins": 34,
+    "losses": 44,
+    "draws": 2,
+    "win_rate": 0.4375,
+    "ci_lo": 0.3341368457196415,
+    "ci_hi": 0.5465906213134304,
+    "avg_score_a": 101.2625,
+    "avg_score_b": 104.3,
+    "avg_margin": -3.0375,
+    "avg_turns": 15.0,
+    "base_kill_rate": 0.0,
+    "ms_per_decision_a": 37.997200907925944
+   },
+   "vs_mcts": {
+    "games": 80,
+    "wins": 64,
+    "losses": 14,
+    "draws": 2,
+    "win_rate": 0.8125,
+    "ci_lo": 0.7134147429619243,
+    "ci_hi": 0.8829479218727162,
+    "avg_score_a": 107.7625,
+    "avg_score_b": 90.9375,
+    "avg_margin": 16.825,
+    "avg_turns": 15.0,
+    "base_kill_rate": 0.0,
+    "ms_per_decision_a": 34.20607564345044
+   }
+  },
+  "RL+MCTS": {
+   "vs_greedy": {
+    "games": 80,
+    "wins": 58,
+    "losses": 21,
+    "draws": 1,
+    "win_rate": 0.73125,
+    "ci_lo": 0.6251716045898136,
+    "ci_hi": 0.8161367673878203,
+    "avg_score_a": 115.225,
+    "avg_score_b": 99.875,
+    "avg_margin": 15.35,
+    "avg_turns": 15.0,
+    "base_kill_rate": 0.0,
+    "ms_per_decision_a": 41.70739319604437
+   },
+   "vs_mcts": {
+    "games": 80,
+    "wins": 73,
+    "losses": 6,
+    "draws": 1,
+    "win_rate": 0.91875,
+    "ci_lo": 0.8380120857985978,
+    "ci_hi": 0.9611138850798207,
+    "avg_score_a": 116.5125,
+    "avg_score_b": 92.3375,
+    "avg_margin": 24.175,
+    "avg_turns": 15.0,
+    "base_kill_rate": 0.0,
+    "ms_per_decision_a": 41.298526302424406
+   }
+  }
+ }
+}

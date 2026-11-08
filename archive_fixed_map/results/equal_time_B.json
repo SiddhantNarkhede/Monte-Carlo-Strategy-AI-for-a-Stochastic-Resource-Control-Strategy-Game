@@ -1,0 +1,15 @@
+{
+ "games": 40,
+ "wins": 32,
+ "losses": 8,
+ "draws": 0,
+ "win_rate": 0.8,
+ "ci_lo": 0.6524239261814333,
+ "ci_hi": 0.8950013502683314,
+ "avg_score_a": 111.3,
+ "avg_score_b": 100.8,
+ "avg_margin": 10.5,
+ "avg_turns": 15.0,
+ "base_kill_rate": 0.0,
+ "ms_per_decision_a": 9.049654541041964
+}

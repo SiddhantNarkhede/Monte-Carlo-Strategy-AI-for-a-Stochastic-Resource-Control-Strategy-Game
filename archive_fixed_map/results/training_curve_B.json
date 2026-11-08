@@ -1,0 +1,26 @@
+[
+ {
+  "episode": 20000,
+  "wr_vs_greedy": 0.025,
+  "wr_vs_random": 0.99,
+  "states": 6738,
+  "visits": 789685,
+  "eps": 0.35
+ },
+ {
+  "episode": 40000,
+  "wr_vs_greedy": 0.25,
+  "wr_vs_random": 0.99,
+  "states": 7769,
+  "visits": 1593190,
+  "eps": 0.2
+ },
+ {
+  "episode": 60000,
+  "wr_vs_greedy": 0.4025,
+  "wr_vs_random": 1.0,
+  "states": 8168,
+  "visits": 2416186,
+  "eps": 0.04999999999999999
+ }
+]

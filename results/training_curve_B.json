@@ -1,0 +1,82 @@
+[
+ {
+  "episode": 30000,
+  "wr_vs_greedy": 0.045,
+  "wr_vs_random": 0.99,
+  "states": 7096,
+  "visits": 1195923,
+  "eps": 0.455
+ },
+ {
+  "episode": 60000,
+  "wr_vs_greedy": 0.18,
+  "wr_vs_random": 1.0,
+  "states": 8173,
+  "visits": 2403866,
+  "eps": 0.41
+ },
+ {
+  "episode": 90000,
+  "wr_vs_greedy": 0.0875,
+  "wr_vs_random": 1.0,
+  "states": 8786,
+  "visits": 3621321,
+  "eps": 0.365
+ },
+ {
+  "episode": 120000,
+  "wr_vs_greedy": 0.355,
+  "wr_vs_random": 1.0,
+  "states": 9158,
+  "visits": 4838764,
+  "eps": 0.31999999999999995
+ },
+ {
+  "episode": 150000,
+  "wr_vs_greedy": 0.345,
+  "wr_vs_random": 1.0,
+  "states": 9494,
+  "visits": 6062719,
+  "eps": 0.275
+ },
+ {
+  "episode": 180000,
+  "wr_vs_greedy": 0.3925,
+  "wr_vs_random": 1.0,
+  "states": 9776,
+  "visits": 7287905,
+  "eps": 0.22999999999999998
+ },
+ {
+  "episode": 210000,
+  "wr_vs_greedy": 0.3725,
+  "wr_vs_random": 1.0,
+  "states": 9922,
+  "visits": 8526708,
+  "eps": 0.185
+ },
+ {
+  "episode": 240000,
+  "wr_vs_greedy": 0.3125,
+  "wr_vs_random": 1.0,
+  "states": 10075,
+  "visits": 9769333,
+  "eps": 0.13999999999999996
+ },
+ {
+  "episode": 270000,
+  "wr_vs_greedy": 0.4775,
+  "wr_vs_random": 1.0,
+  "states": 10316,
+  "visits": 11010992,
+  "eps": 0.09499999999999997
+ },
+ {
+  "episode": 300000,
+  "wr_vs_greedy": 0.5,
+  "wr_vs_random": 1.0,
+  "states": 10518,
+  "visits": 12255548,
+  "eps": 0.04999999999999999
+ }
+]

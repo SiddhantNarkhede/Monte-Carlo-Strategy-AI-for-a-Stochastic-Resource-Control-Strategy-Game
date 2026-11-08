@@ -1,0 +1,42 @@
+[
+ {
+  "episode": 40000,
+  "wr_vs_greedy": 0.015,
+  "wr_vs_random": 0.985,
+  "states": 3583,
+  "visits": 1593740,
+  "eps": 0.41
+ },
+ {
+  "episode": 80000,
+  "wr_vs_greedy": 0.27,
+  "wr_vs_random": 1.0,
+  "states": 3895,
+  "visits": 3202752,
+  "eps": 0.31999999999999995
+ },
+ {
+  "episode": 120000,
+  "wr_vs_greedy": 0.19,
+  "wr_vs_random": 1.0,
+  "states": 4131,
+  "visits": 4830061,
+  "eps": 0.22999999999999998
+ },
+ {
+  "episode": 160000,
+  "wr_vs_greedy": 0.41,
+  "wr_vs_random": 1.0,
+  "states": 4251,
+  "visits": 6480581,
+  "eps": 0.13999999999999996
+ },
+ {
+  "episode": 200000,
+  "wr_vs_greedy": 0.415,
+  "wr_vs_random": 1.0,
+  "states": 4332,
+  "visits": 8146928,
+  "eps": 0.04999999999999999
+ }
+]

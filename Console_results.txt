@@ -1,0 +1,151 @@
+Microsoft Windows [Version 10.0.26300.9550]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Siddhant's Documents\Study Abroad\Project\Claude\strategy-ai>run_all.bat
+[A] ep  30000  vs Greedy 0.120  vs Random 0.995  states 7431  (137s)
+[A] ep  60000  vs Greedy 0.233  vs Random 1.000  states 8566  (298s)
+[A] ep  90000  vs Greedy 0.460  vs Random 0.990  states 9227  (506s)
+[A] ep 120000  vs Greedy 0.212  vs Random 1.000  states 9749  (721s)
+[A] ep 150000  vs Greedy 0.352  vs Random 1.000  states 10164  (939s)
+[A] ep 180000  vs Greedy 0.352  vs Random 1.000  states 10458  (1159s)
+[A] ep 210000  vs Greedy 0.350  vs Random 1.000  states 10734  (1386s)
+[A] ep 240000  vs Greedy 0.547  vs Random 1.000  states 10977  (1610s)
+[A] ep 270000  vs Greedy 0.480  vs Random 1.000  states 11174  (1833s)
+[A] ep 300000  vs Greedy 0.555  vs Random 1.000  states 11321  (2052s)
+[A] tau=0.01  vs Greedy: win 0.543  margin +5.6
+[A] tau=0.03  vs Greedy: win 0.370  margin -4.1
+[A] tau=0.08  vs Greedy: win 0.140  margin -21.7
+[A] tau=0.15  vs Greedy: win 0.053  margin -39.2
+[A] tau=0.3   vs Greedy: win 0.020  margin -56.0
+best tau: 0.01
+[B] ep  30000  vs Greedy 0.045  vs Random 0.990  states 7096  (193s)
+[B] ep  60000  vs Greedy 0.180  vs Random 1.000  states 8173  (400s)
+[B] ep  90000  vs Greedy 0.087  vs Random 1.000  states 8786  (613s)
+[B] ep 120000  vs Greedy 0.355  vs Random 1.000  states 9158  (785s)
+[B] ep 150000  vs Greedy 0.345  vs Random 1.000  states 9494  (890s)
+[B] ep 180000  vs Greedy 0.393  vs Random 1.000  states 9776  (995s)
+[B] ep 210000  vs Greedy 0.372  vs Random 1.000  states 9922  (1103s)
+[B] ep 240000  vs Greedy 0.312  vs Random 1.000  states 10075  (1203s)
+[B] ep 270000  vs Greedy 0.477  vs Random 1.000  states 10316  (1306s)
+[B] ep 300000  vs Greedy 0.500  vs Random 1.000  states 10518  (1410s)
+[B] tau=0.01  vs Greedy: win 0.527  margin +5.4
+[B] tau=0.03  vs Greedy: win 0.420  margin -1.3
+[B] tau=0.08  vs Greedy: win 0.190  margin -18.6
+[B] tau=0.15  vs Greedy: win 0.073  margin -37.2
+[B] tau=0.3   vs Greedy: win 0.013  margin -55.7
+best tau: 0.01
+[C] ep  30000  vs Greedy 0.095  vs Random 1.000  states 4184  (92s)
+[C] ep  60000  vs Greedy 0.260  vs Random 1.000  states 4621  (191s)
+[C] ep  90000  vs Greedy 0.098  vs Random 1.000  states 4890  (294s)
+[C] ep 120000  vs Greedy 0.335  vs Random 1.000  states 5062  (396s)
+[C] ep 150000  vs Greedy 0.230  vs Random 1.000  states 5192  (500s)
+[C] ep 180000  vs Greedy 0.385  vs Random 1.000  states 5335  (604s)
+[C] ep 210000  vs Greedy 0.388  vs Random 1.000  states 5498  (709s)
+[C] ep 240000  vs Greedy 0.385  vs Random 1.000  states 5600  (813s)
+[C] ep 270000  vs Greedy 0.430  vs Random 1.000  states 5690  (918s)
+[C] ep 300000  vs Greedy 0.470  vs Random 1.000  states 5770  (1023s)
+[C] tau=0.01  vs Greedy: win 0.573  margin +5.2
+[C] tau=0.03  vs Greedy: win 0.413  margin -1.5
+[C] tau=0.08  vs Greedy: win 0.193  margin -17.9
+[C] tau=0.15  vs Greedy: win 0.040  margin -40.6
+[C] tau=0.3   vs Greedy: win 0.000  margin -55.4
+best tau: 0.01
+[A]     Random vs Greedy     n=300  wr=0.000 [0.00,0.01]  score 40-118 (0s)
+[A]     Random vs MC-Control n=300  wr=0.000 [0.00,0.01]  score 45-116 (1s)
+[A]     Random vs MCTS       n=100  wr=0.000 [0.00,0.04]  score 43-107 (16s)
+[A]     Random vs RL+MCTS    n=100  wr=0.000 [0.00,0.04]  score 44-115 (89s)
+[A]     Greedy vs MC-Control n=300  wr=0.412 [0.36,0.47]  score 104-112 (1s)
+[A]     Greedy vs MCTS       n=100  wr=0.750 [0.66,0.82]  score 110-96 (12s)
+[A]     Greedy vs RL+MCTS    n=100  wr=0.145 [0.09,0.23]  score 98-115 (107s)
+[A] MC-Control vs MCTS       n=100  wr=0.720 [0.63,0.80]  score 113-101 (18s)
+[A] MC-Control vs RL+MCTS    n=100  wr=0.095 [0.05,0.17]  score 99-116 (108s)
+[A]       MCTS vs RL+MCTS    n=100  wr=0.080 [0.04,0.15]  score 99-117 (102s)
+[B]     Random vs Greedy     n=300  wr=0.000 [0.00,0.01]  score 43-119 (0s)
+[B]     Random vs MC-Control n=300  wr=0.000 [0.00,0.01]  score 45-113 (1s)
+[B]     Random vs MCTS       n=100  wr=0.000 [0.00,0.04]  score 46-103 (19s)
+[B]     Random vs RL+MCTS    n=100  wr=0.000 [0.00,0.04]  score 47-117 (113s)
+[B]     Greedy vs MC-Control n=300  wr=0.468 [0.41,0.52]  score 104-111 (1s)
+[B]     Greedy vs MCTS       n=100  wr=0.865 [0.78,0.92]  score 113-91 (24s)
+[B]     Greedy vs RL+MCTS    n=100  wr=0.175 [0.11,0.26]  score 97-116 (120s)
+[B] MC-Control vs MCTS       n=100  wr=0.795 [0.71,0.86]  score 112-96 (23s)
+[B] MC-Control vs RL+MCTS    n=100  wr=0.165 [0.10,0.25]  score 102-117 (122s)
+[B]       MCTS vs RL+MCTS    n=100  wr=0.075 [0.04,0.14]  score 92-116 (146s)
+[C]     Random vs Greedy     n=300  wr=0.000 [0.00,0.01]  score 43-119 (0s)
+[C]     Random vs MC-Control n=300  wr=0.000 [0.00,0.01]  score 45-116 (1s)
+[C]     Random vs MCTS       n=100  wr=0.010 [0.00,0.05]  score 47-92 (19s)
+[C]     Random vs RL+MCTS    n=100  wr=0.000 [0.00,0.04]  score 45-115 (98s)
+[C]     Greedy vs MC-Control n=300  wr=0.443 [0.39,0.50]  score 105-111 (1s)
+[C]     Greedy vs MCTS       n=100  wr=0.925 [0.86,0.96]  score 114-83 (24s)
+[C]     Greedy vs RL+MCTS    n=100  wr=0.315 [0.23,0.41]  score 99-112 (122s)
+[C] MC-Control vs MCTS       n=100  wr=0.865 [0.78,0.92]  score 114-90 (23s)
+[C] MC-Control vs RL+MCTS    n=100  wr=0.435 [0.34,0.53]  score 102-112 (113s)
+[C]       MCTS vs RL+MCTS    n=100  wr=0.025 [0.01,0.08]  score 85-116 (140s)
+[abl B] MCTS           vs Greedy 0.212  vs MCTS -  (16s)
+[abl B] MCTS+prior     vs Greedy 0.606  vs MCTS 0.838  (69s)
+[abl B] MCTS+rollout   vs Greedy 0.438  vs MCTS 0.812  (184s)
+[abl B] RL+MCTS        vs Greedy 0.731  vs MCTS 0.919  (214s)
+[scale B] sims=25   MCTS/Greedy 0.000  RL+MCTS/Greedy 0.550  RL+MCTS/MCTS 0.950  (26s)
+[scale B] sims=50   MCTS/Greedy 0.000  RL+MCTS/Greedy 0.637  RL+MCTS/MCTS 1.000  (57s)
+[scale B] sims=100  MCTS/Greedy 0.050  RL+MCTS/Greedy 0.588  RL+MCTS/MCTS 0.925  (118s)
+[scale B] sims=200  MCTS/Greedy 0.237  RL+MCTS/Greedy 0.675  RL+MCTS/MCTS 0.900  (273s)
+
+### Environment A: deterministic  (search budget 100 simulations/decision)
+
+| Agent | Win rate (all opponents) | Avg score | Avg opp. score | Avg game length (turns/player) | ms / decision |
+|---|---|---|---|---|---|
+| Random | 0.0% | 42.8 | 115.5 | 14.9 | 0.00 |
+| Greedy | 64.1% | 109.3 | 83.5 | 15.0 | 0.01 |
+| MC-Control | 69.8% | 112.0 | 82.8 | 15.0 | 0.03 |
+| MCTS | 40.2% | 100.5 | 95.9 | 15.0 | 5.23 |
+| RL+MCTS | 92.0% | 115.7 | 84.8 | 15.0 | - |
+
+Head-to-head (win rate of row agent vs column agent, 95% Wilson CI, n games):
+
+| row \ col | Random | Greedy | MC-Control | MCTS | RL+MCTS |
+|---|---|---|---|---|---|
+| **Random** | - | 0.00 [0.00,0.01] (n=300) | 0.00 [0.00,0.01] (n=300) | 0.00 [0.00,0.04] (n=100) | 0.00 [0.00,0.04] (n=100) |
+| **Greedy** | 1.00 [0.99,1.00] (n=300) | - | 0.41 [0.36,0.47] (n=300) | 0.75 [0.66,0.82] (n=100) | 0.14 [0.09,0.23] (n=100) |
+| **MC-Control** | 1.00 [0.99,1.00] (n=300) | 0.59 [0.53,0.64] (n=300) | - | 0.72 [0.63,0.80] (n=100) | 0.10 [0.05,0.17] (n=100) |
+| **MCTS** | 1.00 [0.96,1.00] (n=100) | 0.25 [0.18,0.34] (n=100) | 0.28 [0.20,0.37] (n=100) | - | 0.08 [0.04,0.15] (n=100) |
+| **RL+MCTS** | 1.00 [0.96,1.00] (n=100) | 0.85 [0.77,0.91] (n=100) | 0.91 [0.83,0.95] (n=100) | 0.92 [0.85,0.96] (n=100) | - |
+
+### Environment B: stochastic  (search budget 100 simulations/decision)
+
+| Agent | Win rate (all opponents) | Avg score | Avg opp. score | Avg game length (turns/player) | ms / decision |
+|---|---|---|---|---|---|
+| Random | 0.0% | 44.9 | 114.7 | 15.0 | 0.00 |
+| Greedy | 68.1% | 109.8 | 83.9 | 15.0 | 0.01 |
+| MC-Control | 69.4% | 111.0 | 82.5 | 15.0 | 0.03 |
+| MCTS | 35.4% | 95.4 | 96.7 | 15.0 | 7.90 |
+| RL+MCTS | 89.6% | 116.6 | 84.4 | 15.0 | - |
+
+Head-to-head (win rate of row agent vs column agent, 95% Wilson CI, n games):
+
+| row \ col | Random | Greedy | MC-Control | MCTS | RL+MCTS |
+|---|---|---|---|---|---|
+| **Random** | - | 0.00 [0.00,0.01] (n=300) | 0.00 [0.00,0.01] (n=300) | 0.00 [0.00,0.04] (n=100) | 0.00 [0.00,0.04] (n=100) |
+| **Greedy** | 1.00 [0.99,1.00] (n=300) | - | 0.47 [0.41,0.52] (n=300) | 0.86 [0.78,0.92] (n=100) | 0.17 [0.11,0.26] (n=100) |
+| **MC-Control** | 1.00 [0.99,1.00] (n=300) | 0.53 [0.48,0.59] (n=300) | - | 0.80 [0.71,0.86] (n=100) | 0.17 [0.10,0.25] (n=100) |
+| **MCTS** | 1.00 [0.96,1.00] (n=100) | 0.14 [0.08,0.22] (n=100) | 0.20 [0.14,0.29] (n=100) | - | 0.07 [0.04,0.14] (n=100) |
+| **RL+MCTS** | 1.00 [0.96,1.00] (n=100) | 0.82 [0.74,0.89] (n=100) | 0.83 [0.75,0.90] (n=100) | 0.93 [0.86,0.96] (n=100) | - |
+
+### Environment C: hidden info  (search budget 100 simulations/decision)
+
+| Agent | Win rate (all opponents) | Avg score | Avg opp. score | Avg game length (turns/player) | ms / decision |
+|---|---|---|---|---|---|
+| Random | 0.1% | 44.7 | 114.2 | 15.0 | 0.00 |
+| Greedy | 69.6% | 110.7 | 82.2 | 15.0 | 0.01 |
+| MC-Control | 74.6% | 112.1 | 81.5 | 15.0 | 0.03 |
+| MCTS | 30.6% | 87.5 | 97.7 | 15.0 | 7.72 |
+| RL+MCTS | 80.6% | 113.7 | 82.7 | 15.0 | - |
+
+Head-to-head (win rate of row agent vs column agent, 95% Wilson CI, n games):
+
+| row \ col | Random | Greedy | MC-Control | MCTS | RL+MCTS |
+|---|---|---|---|---|---|
+| **Random** | - | 0.00 [0.00,0.01] (n=300) | 0.00 [0.00,0.01] (n=300) | 0.01 [0.00,0.05] (n=100) | 0.00 [0.00,0.04] (n=100) |
+| **Greedy** | 1.00 [0.99,1.00] (n=300) | - | 0.44 [0.39,0.50] (n=300) | 0.93 [0.86,0.96] (n=100) | 0.32 [0.23,0.41] (n=100) |
+| **MC-Control** | 1.00 [0.99,1.00] (n=300) | 0.56 [0.50,0.61] (n=300) | - | 0.86 [0.78,0.92] (n=100) | 0.43 [0.34,0.53] (n=100) |
+| **MCTS** | 0.99 [0.95,1.00] (n=100) | 0.07 [0.04,0.14] (n=100) | 0.14 [0.08,0.22] (n=100) | - | 0.03 [0.01,0.08] (n=100) |
+| **RL+MCTS** | 1.00 [0.96,1.00] (n=100) | 0.69 [0.59,0.77] (n=100) | 0.56 [0.47,0.66] (n=100) | 0.97 [0.92,0.99] (n=100) | - |
+done - see results\tables.md and results\fig_*.png
